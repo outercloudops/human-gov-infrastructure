@@ -1,0 +1,7 @@
+terraform {
+  backend "s3" {
+    bucket = "your-state-bucket-name"
+    key    = "humangov/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
